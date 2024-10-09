@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
     <title>Pacoquiha</title>
@@ -7,7 +7,8 @@
 
 <body>
 
-   <h1 style="color: crimson;">Bem vindo ao meu projeto</h1>
+   <h1 style="color: crimson;">Bem vindo ao meu projeto, sou o <label th:text="${nome}"></label>
+   </h1>
 
     <a href="blogue"><h2 >Blogue</h2></a>
     <a href="sobre"><h2>Sobre</h2></a>
